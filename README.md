@@ -7,7 +7,7 @@ optimization for and synthesis on the edge.
 ## Installation
 Clone the repo
 ```bash
-git clone https://github.com/mbaharan/DeepRace
+git clone https://github.com/TeCSAR-UNCC/DeepDive
 ```
 Make sure you have the sysroot mounted on your system and update the path accordingly in the synth.sh file
 
