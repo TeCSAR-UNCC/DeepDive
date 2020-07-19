@@ -12,12 +12,12 @@ git clone https://github.com/TeCSAR-UNCC/DeepDive
 ## Prerequisites
 Make sure you have the sysroot mounted on your system and update the path accordingly in the synth.sh file
 
-# SYSROOT installation
+### SYSROOT installation
 
 Follow the instructions on the Xilinx github for SYSROOT generation 
-
+```bash
 https://github.com/Xilinx/Vitis_Embedded_Platform_Source/tree/master/Xilinx_Official_Platforms/zcu102_base
-
+```
 Install Vivado 2018.3
 
 ## Synthesis
