@@ -35,4 +35,4 @@ sudo prog_fpga MobileNet.bit
 sudo ./mobilenet image/bird.jpg
 ```
 ## License
-Copyright (c) 2018, the University of North Carolina at Charlotte All rights reserved. - see the [LICENSE](https://raw.githubusercontent.com/TeCSAR-UNCC/DeepDive/master/LICENSE) file for details.
+Copyright (c) 2018, the University of North Carolina at Charlotte All rights reserved. - see the [LICENSE](https://https://raw.githubusercontent.com/TeCSAR-UNCC/DeepDive/master/LICENSE.txt) file for details.
