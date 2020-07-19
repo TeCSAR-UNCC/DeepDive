@@ -26,3 +26,13 @@ Follow the below commands for running the synthesis
 cd DeepDive
 ./synth.sh
 ```
+## Running on ZCU102
+To succesfully run the network on the ZCU102. Copy the mobileNetV2.bit (bitstream), (mobileNetV2)Executable from build/ZCU102-MobileNetV2 and the data and image folder to ZCU102
+
+On ZCU102
+```bash
+sudo prog_fpga MobileNet.bit
+sudo ./mobilenet image/bird.jpg
+```
+## License
+Copyright (c) 2018, the University of North Carolina at Charlotte All rights reserved. - see the [LICENSE](https://raw.githubusercontent.com/TeCSAR-UNCC/DeepDive/master/LICENSE) file for details.
