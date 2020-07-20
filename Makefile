@@ -123,7 +123,7 @@ platform:
 	@echo "Successfully finished building SDx platform."
 	@echo "SDx platform stored in $(BOARD)/platforms/$(OVERLAY)."
 
-elf: $(OBJECTS)
+elf: $(OBJECTS)	
 	@mkdir -p $(TEST_DIR)
 	@echo 'Building Target: $@'
 	@echo 'Trigerring: SDS++ Linker'
