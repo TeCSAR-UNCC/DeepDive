@@ -20,6 +20,7 @@ https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841937/Zynq+UltraScale+M
 ```
 Install Vivado 2018.3
 
+### prog_fpga Tool Installation
 For prog_fpga tool to program the FPGA using the teminal of peta-linux save the below file as prog_fpga in /usr/bin/
 ```bash
 https://raw.githubusercontent.com/stanford-ppl/spatial-doc/46c40413dfae0dcbf61aaf1ed68abe10645b560d/docs/site/targets/zcu/prog_fpga
