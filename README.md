@@ -14,12 +14,16 @@ Make sure you have the sysroot mounted on your system and update the path accord
 
 ### SYSROOT installation
 
-Follow the instructions on the Xilinx github for SYSROOT generation 
+Follow the instructions on the Xilinx wiki for SYSROOT generation 
 ```bash
-https://github.com/Xilinx/Vitis_Embedded_Platform_Source/tree/master/Xilinx_Official_Platforms/zcu102_base
+https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841937/Zynq+UltraScale+MPSoC+Ubuntu+part+2+-+Building+and+Running+the+Ubuntu+Desktop+From+Sources
 ```
 Install Vivado 2018.3
 
+For prog_fpga tool to program the FPGA using the teminal of peta-linux save the below file as prog_fpga in /usr/bin/
+```bash
+https://raw.githubusercontent.com/stanford-ppl/spatial-doc/46c40413dfae0dcbf61aaf1ed68abe10645b560d/docs/site/targets/zcu/prog_fpga
+```
 ## Synthesis
 Follow the below commands for running the synthesis
 ```bash
