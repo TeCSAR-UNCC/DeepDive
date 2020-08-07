@@ -39,5 +39,17 @@ On ZCU102
 sudo prog_fpga MobileNet.bit
 sudo ./mobilenet image/bird.jpg
 ```
+## Citing Deep RACE
+Please cite the Deep RACE if it helps your research work.
+```
+@misc{baharani2020deepdive,
+    title={DeepDive: An Integrative Algorithm/Architecture Co-Design for Deep Separable Convolutional Neural Networks},
+    author={Mohammadreza Baharani, Ushma Sunil, Kaustubh Manohar, Steven Furgurson, and Hamed Tabkhi},
+    year={2020},
+    eprint={2007.09490},
+    archivePrefix={arXiv},
+    primaryClass={cs.AR}
+}
+```
 ## License
 Copyright (c) 2018, the University of North Carolina at Charlotte All rights reserved. - see the [LICENSE](https://raw.githubusercontent.com/TeCSAR-UNCC/DeepDive/master/LICENSE.txt) file for details.
