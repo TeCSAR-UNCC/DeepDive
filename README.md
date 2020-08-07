@@ -39,8 +39,8 @@ On ZCU102
 sudo prog_fpga MobileNet.bit
 sudo ./mobilenet image/bird.jpg
 ```
-## Citing Deep RACE
-Please cite the Deep RACE if it helps your research work.
+## Citing DeepDive
+Please cite the DeepDive if it helps your research work.
 ```
 @misc{baharani2020deepdive,
     title={DeepDive: An Integrative Algorithm/Architecture Co-Design for Deep Separable Convolutional Neural Networks},
