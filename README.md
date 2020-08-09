@@ -34,14 +34,14 @@ Before starting the synthesis we need to define the SYSROOT path inside the scri
 DIR=/mnt/500GB/shared_directory/SYSROOT/
 ```
 
-There are 2 ways to mount the SYSROOT. If the ZCU102 is in the same network as the system used for sythesis you can mount the root of the ZCU102 on the system as use that as a SYSROOT path. 
+There are 2 ways to mount the SYSROOT. If the ZCU102 is in the same network as the system used for sythesis. You can mount the root of the ZCU102 on the system and use that as a SYSROOT path. 
 
 ```bash
 sshfs xilinx@<ip_of_ZCU102>:/ /<dir>
 ```
-Where ip_of_ZCU102 is the IP of ZCU102 and dir is the directory where you want to mount the SYSROOT
+Where ip_of_ZCU102 is the IP of ZCU102 and dir is the directory where you want to mount the SYSROOT.
 
-You can also mount the ZCU102 sdcard on the system 
+You can also mount the ZCU102 sdcard on the system directly.
 
 ```bash
 sudo mount /dev/sdX1 /<dir> 
