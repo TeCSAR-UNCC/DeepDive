@@ -25,6 +25,28 @@ For prog_fpga tool to program the FPGA using the teminal of peta-linux save the 
 ```bash
 https://raw.githubusercontent.com/stanford-ppl/spatial-doc/46c40413dfae0dcbf61aaf1ed68abe10645b560d/docs/site/targets/zcu/prog_fpga
 ```
+
+### Mount the SYSROOT
+
+Before starting the synthesis we need to define the SYSROOT path inside the script.sh file. 
+
+```bash
+DIR=/mnt/500GB/shared_directory/SYSROOT/
+```
+
+There are 2 ways to mount the SYSROOT. If the ZCU102 is in the same network as the system used for sythesis you can mount the root of the ZCU102 on the system as use that as a SYSROOT path. 
+
+```bash
+sshfs xilinx@<ip_of_ZCU102>:/ /<dir>
+```
+Where ip_of_ZCU102 is the IP of ZCU102 and dir is the directory where you want to mount the SYSROOT
+
+You can also mount the ZCU102 sdcard on the system 
+
+```bash
+sudo mount /dev/sdX1 /<dir> 
+```
+
 ## Synthesis
 Follow the below commands for running the synthesis
 ```bash
