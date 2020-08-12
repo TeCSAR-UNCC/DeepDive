@@ -48,7 +48,7 @@ sudo mount /dev/sdX1 /<dir>
 ```
 
 ## Synthesis
-Follow the below commands for running the synthesis
+Before synthesizing the circuit, make sure SYSROOT directory and Vivado environment setup file path are updated in `synth.sh` based on your installation setting, and then follow the below commands for running the synthesis:
 ```bash
 cd DeepDive
 ./synth.sh
@@ -62,7 +62,7 @@ sudo prog_fpga MobileNet.bit
 sudo ./mobilenet image/bird.jpg
 ```
 ## Demo
-You can see the demo of our DeepDive [here](https://www.youtube.com/watch?v=AxtroiRr__M&feature=youtu.be)
+We have uploaded a demo of the DeepDive output for MibleNetV2 [here](https://www.youtube.com/watch?v=AxtroiRr__M&feature=youtu.be).
 ## Citing DeepDive
 Please cite the DeepDive if it helps your research work.
 ```
