@@ -61,6 +61,8 @@ On ZCU102
 sudo prog_fpga MobileNet.bit
 sudo ./mobilenet image/bird.jpg
 ```
+## Demo
+You can see the demo of our DeepDive [here](https://www.youtube.com/watch?v=AxtroiRr__M&feature=youtu.be)
 ## Citing DeepDive
 Please cite the DeepDive if it helps your research work.
 ```
