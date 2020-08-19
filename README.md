@@ -62,7 +62,7 @@ sudo prog_fpga MobileNet.bit
 sudo ./mobilenet image/bird.jpg
 ```
 ## Demo
-We have uploaded a demo of the DeepDive output for MibleNetV2 [here](https://www.youtube.com/watch?v=AxtroiRr__M&feature=youtu.be).
+We have uploaded a demo of the DeepDive output for MobileNetV2 [here](https://www.youtube.com/watch?v=AxtroiRr__M&feature=youtu.be).
 ## Citing DeepDive
 Please cite the DeepDive if it helps your research work.
 ```
